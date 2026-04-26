@@ -10,7 +10,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <signal.h>
-#include "../include/ipcsync.h"
+#include "ipcsync.h"
 
 static volatile int running = 1;
 static void sig_handler(int sig) { (void)sig; running = 0; }
