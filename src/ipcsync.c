@@ -17,7 +17,7 @@
 #include <semaphore.h>
 #include <pthread.h>
 
-#include "../include/ipcsync.h"
+#include "ipcsync.h"
 #include "ipcsync_internal.h"
 
 static void ipc_strlcpy0(char *dst, const char *src, size_t dst_size) {

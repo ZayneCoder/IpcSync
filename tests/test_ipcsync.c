@@ -9,7 +9,7 @@
 #include <assert.h>
 #include <inttypes.h>
 #include <sys/wait.h>
-#include "../include/ipcsync.h"
+#include "ipcsync.h"
 
 #define SHM_NAME "/test_ipcsync_tmp"
 #define PASS "\033[32mPASS\033[0m"
